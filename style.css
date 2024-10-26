@@ -1,0 +1,117 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b; /* Fundo mais escuro e menos saturado */
+    color: #ffffff; /* Texto branco para maior contraste */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #e60000; /* Vermelho Deadpool */
+}
+
+.profile h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    color: #e60000; /* Vermelho forte */
+}
+
+.profile p {
+    font-size: 1.2rem;
+    color: #cccccc; /* Cinza suave */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a i {
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    color: #e60000; /* Vermelho no hover */
+}
+
+/* Seções com efeito vidro */
+.glass-section {
+    background: rgba(230, 0, 0, 0.2); /* Transparência com vermelho suave */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+    color: #000000; /* Títulos agora estão em preto */
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    border-bottom: none; /* Removendo a linha abaixo do título */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+ul li i {
+    margin-right: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #cccccc; /* Cinza suave para o rodapé */
+}
+
+footer p a {
+    color: #e60000; /* Vermelho Deadpool */
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
